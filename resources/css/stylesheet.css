@@ -13,8 +13,15 @@ body {
   margin: 0;
 }
 
+h2,
+h4{
+  margin: 0;
+  padding: 10px;
+}
+
+}
+
 #logo {
-  display: flex;
   padding: 10px;
 }
 
@@ -60,7 +67,9 @@ body {
 #our_mission {
   display: inline-block;
   width: 1200px;
+  margin: auto;
   align-items: center;
+  background-color: black;
 }
 
 .nav_link {
