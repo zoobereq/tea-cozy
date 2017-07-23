@@ -19,10 +19,13 @@ h4{
   padding: 10px;
 }
 
+#logo {
+  display: flex;
+  padding: 10px;
 }
 
-#logo {
-  padding: 10px;
+#logo img {
+  height: 50px;
 }
 
 #main {
@@ -49,7 +52,6 @@ h4{
   justify-content: space-between;
   align-items: center;
   height: 69px;
-
 }
 
 #navigation {
@@ -61,7 +63,6 @@ h4{
   justify-content: space-between;
   background-color: black;
   z-index: 1;
-
 }
 
 #our_mission {
@@ -70,6 +71,25 @@ h4{
   margin: auto;
   align-items: center;
   background-color: black;
+}
+
+#tea {
+  display: flex;
+  width: 1000px;
+}
+
+#tea_month {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  align-items: center;
+}
+
+#tea_types {
+  display: flex;
+  width: 1000px;
+  height: auto;
+  align-content: center:
 }
 
 .nav_link {
