@@ -39,6 +39,13 @@ h4{
   margin: auto;
 }
 
+#menu {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
 #mission {
   display: flex;
   height: 700px;
@@ -74,22 +81,16 @@ h4{
 }
 
 #tea {
-  display: flex;
-  width: 1000px;
-}
-
-#tea_month {
-  display: flex;
+  padding-top: 50px;
   width: 1000px;
   margin: auto;
-  align-items: center;
 }
 
-#tea_types {
-  display: flex;
-  width: 1000px;
-  height: auto;
-  align-content: center:
+.item {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
 }
 
 .nav_link {
